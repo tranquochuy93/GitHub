@@ -36,3 +36,10 @@
   ```html
    $ git push origin feature/issues/222
   ```
+### Save change and get it in stash
+ ```html
+ $ git stash save -u
+```
+ ```html
+ $ git stash pop
+```
