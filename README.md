@@ -1,3 +1,26 @@
+# Ubuntu
+
+### Install MS font
+```cmd
+wget http://ftp.de.debian.org/debian/pool/contrib/m/msttcorefonts/ttf-mscorefonts-installer_3.6_all.deb
+
+sudo dpkg -i ttf-mscorefonts-installer_3.6_all.de
+```
+
+### Install Arial unicode font
+```cmd
+1) sudo mkdir /usr/share/fonts/truetype/arialuni/
+
+2) tar -jxvf arial.tar.bz2 arialuni/arialuni.ttf
+
+3) sudo cp arialuni/arialuni.ttf /usr/share/fonts/truetype/arialuni/
+
+4) sudo chmod 644 /usr/share/fonts/truetype/arialuni/arialuni.ttf
+
+5) rm -r arialuni/
+
+6) sudo fc-cache -f -v
+```
 # GitHub
 ####
 Remote reposity
