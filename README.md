@@ -1,4 +1,15 @@
 # Ubuntu
+### Clone git using private ssh key
+```bash
+Keys need to be only readable by you
+chmod 400 ~/.ssh/id_rsa
+
+If Keys need to be read-writable by you
+chmod 600 ~/.ssh/id_rsa
+```
+```bash
+ssh-agent bash -c 'ssh-add ~/.ssh/id_rsa_hodfords; git clone git@gitlab.com:diginexhk/lumen/lumen-backend.git'
+```
 
 ### Install MS font
 ```cmd
