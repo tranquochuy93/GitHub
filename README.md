@@ -33,6 +33,17 @@ sudo dpkg -i ttf-mscorefonts-installer_3.6_all.de
 6) sudo fc-cache -f -v
 ```
 # GitHub
+### push project to repository
+1. create repository "microservice-kafka"
+2. create local project
+3. run cmd
+```cmd
+git init
+git add .
+git commit -m "create-project"
+git remote add origin https://github.com/tranquochuy93/microservice-kafka.git
+git push -u origin master
+```
 ####
 Remote reposity
 Local reposity
