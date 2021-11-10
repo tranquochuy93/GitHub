@@ -1,4 +1,14 @@
 # Ubuntu
+### connect vpn using wireguard
+```bash
+sudo apt install wireguard
+[9:41 AM]
+sudo apt install openresolv
+[9:42 AM]
+copy file peer74.conf vào folder etc/wireguard
+[9:42 AM]
+run lệnh: wg-quick up peer74
+```
 ### Clone git using private ssh key
 ```bash
 Keys need to be only readable by you
