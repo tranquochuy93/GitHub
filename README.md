@@ -138,9 +138,18 @@ History -> (git reset --hard) ->xóa thay đổi khỏi stage và working dir
    $ git push origin feature/issues/222
   ```
 ### Save change and get it in stash
- ```html
+ ```bash
  $ git stash save -u
 ```
- ```html
+ ```bash
  $ git stash pop
+```
+### resolve conflict binary file
+1. just want the file from the branch you are merging in
+ ```bash
+ $ git checkout --theirs -- path/to/conflicted-file.txt
+```
+2. you want your version (not the one being merged in)
+ ```bash
+ $ git checkout --ours -- path/to/conflicted-file.txt
 ```
