@@ -49,7 +49,8 @@ sudo dpkg -i ttf-mscorefonts-installer_3.6_all.de
 3. run cmd
 ```cmd
 git init
-git add .
+touch README
+git add README
 git commit -m "create-project"
 git remote add origin https://github.com/tranquochuy93/microservice-kafka.git
 git push -u origin master
