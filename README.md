@@ -154,3 +154,8 @@ History -> (git reset --hard) ->xóa thay đổi khỏi stage và working dir
  ```bash
  $ git checkout --ours -- path/to/conflicted-file.txt
 ```
+### reset merge
+```bash
+git merge --abort  [Since git version 1.7.4]
+git reset --merge [prior git versions]
+```
